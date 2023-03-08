@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 7em !important;
+    line-height: 2em;
+}
+
+h2 {
+    font-family: 'Cabin Sketch', cursive;
+    line-height: 2em;
+}
+
+.lista>* {
+    list-style-image: url("./img/pizza_icon.png") !important;
+    line-height: 30px
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px !important;
+    }
+}
